@@ -27,25 +27,7 @@
    console.log(this.name + ", peck-peck AWAY!");
  };
  //----------------------2 способ -----------------------------------
- /*var dog, cat, woodpecker;
- var Animal = function(name, age, sound, region) {
-     this.name = name || "someAnimal";
-     this.age = age || "default_age";
-     this.sound = sound || "default_sound";
-     this.region = region || "default_region";
-     this.say = function(speech) {
-         console.log("Hi,my name is " + this.name + " and i'm saying:" +
-             '"' + speech + '".');
-     };
- };
- dog = new Animal("Dog", 5, "woof", "Kyiv");
- cat = new Animal("Cat", 4, "meow", "Lviv");
- woodpecker = new Animal("Woodpecker", 3, "Peck-peck", "Poltava");
- dog.goAway = function() {
-     console.log(this.name + ", woof AWAY!");
- };
- cat.goAway = function() {
-     console.log(this.name + ", meow AWAY!");
+ 
  };
  woodpecker.goAway = function() {
      console.log(this.name + ", peck-peck AWAY!");
