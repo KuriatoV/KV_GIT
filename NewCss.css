@@ -1,0 +1,33 @@
+body{
+  padding:15px;
+  width:400px;
+  margin:10px auto;
+  position:relative;
+  overflow:auto;
+}
+.active
+{opacity:0.7;
+visibility:visible;
+background-color:#556677;
+
+}
+ 
+ .through  {
+    text-decoration: line-through;
+    opacity: 0.7;
+    font-size: 17px;
+}
+.red{
+   color:red;
+}
+ li {
+    border:1px dotted black;
+    
+}
+#del
+{visibility:hidden;
+   background-color:red;
+}
+#ch_box{visibility:hidden;}
+#id1{}
+.item{font-size: 25px;}
